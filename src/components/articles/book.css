@@ -8,6 +8,17 @@
 .book-container {
   background-color: antiquewhite;
   padding: 10px;
+  border-radius: 10px;
+}
+
+.book__title,
+.book__author {
+  cursor: pointer;
+}
+
+.book__pub,
+.book__contetn {
+  font-weight: 500;
 }
 
 @media screen and (max-width: 900px) {
